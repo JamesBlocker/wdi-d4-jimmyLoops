@@ -16,14 +16,29 @@
         //     i += 10;
         // }
 
-        while (i <= 100) {
-            if (i % 10 === 0) {
-                console.log("ZAP");
-            } else {
-                console.log(i);
-            }
-            i++;
+        // while (i <= 100) {
+        //     if (i % 10 === 0) {
+        //         console.log("ZAP");
+        //     } else {
+        //         console.log(i);
+        //     }
+        //     i++;
+        // }
+
+        // var i = 0;
+        // while (i < 1) {
+        //     console.log(i);
+        //     i = i + 0.1;
+        // }
+
+        var passPhrase = 'banana';
+        var userInput = prompt('Tell me the secret word');
+        while (userInput !== passPhrase) {
+            alert('Wrong');
+            userInput = prompt('Tell me the secret word');
         }
+     
+    
 
         console.log("Done!");
     
